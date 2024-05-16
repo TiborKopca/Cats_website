@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <meta name="author" content="Tibor Kopca" />
+    <meta name="language" content="en" />
+    <meta name="robots" content="index, follow" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="title" content="" />
+    <meta name="description" content="Family Photo Gallery" />
+    <meta name="keywords" content="" />
+    <!-- <meta name="msapplication-TileColor" content="#da532c" /> -->
+    <!-- <meta
+      name="msapplication-config"
+      content="./images/favicon/browserconfig.xml"
+    /> -->
+
+    <meta property="og:title" content="Título de tu página" />
+    <meta property="og:description" content="Descripción de tu página" />
+    <meta
+      property="og:image"
+      content="URL de la imagen que quieres mostrar en las redes sociales"
+    />
+    <meta property="og:url" content="URL de tu página" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="http://" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Título de tu página" />
+    <meta name="twitter:description" content="Descripción de tu página" />
+    <meta
+      name="twitter:image"
+      content="URL de la imagen que quieres mostrar en Twitter"
+    />
+    <!-- ITEMPROP -->
+    <meta itemprop="name" content />
+    <meta itemprop="description" content />
+    <meta itemprop="image" content="http://" />
+
+    <!-- TITLE -->
+    <title>Cats - Simple Website</title>
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" /> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" /> -->
+    <!-- <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5" /> -->
+
+    <!-- APPLE TOUCH ICON (iOS) -->
+    <!-- <link rel="apple-touch-icon" href="icon.png" /> -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png" /> -->
+
+    <!-- ICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- TYPOGRAPHY / FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> -->
+
+    <!-- STYLESHEETS -->
+    <!-- App Web, inidicar al navegador que elementos mostrar en un JSON -->
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="/css/normalize.min.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <!-- <link rel="stylesheet" href="./css/bulma.min.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/bulmaExtension.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/colors.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/floating-wpp.min.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/gallery.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/menu.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/swiper.min.css" /> -->
+
+    <!-- THEMES -->
+    <meta name="theme-color" content="#fafafa" />
+
+    <!-- BULMA CAROUSEL -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"> -->
+
+    <!-- SEO -->
+    <link rel="canonical" href="" />
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-CCE027WNBT"></script> -->
+    <!-- <script>
+        window.dataLayer = window.dataLayer || [];
+    
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+    
+        gtag('config', 'G-CCE027WNBT');
+      </script> -->
+    <!-- <meta name="google-site-verification" content="aWHo_QNMpQrxTNfZNqKKShyhUF6QMGZnouwb-4Q0GhQ" /> -->
+
+    <!-- PRECONNECT -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+
+    <!-- PRELOADER -->
+    <script src="preloader.js"></script>
+
+    <!-- JS -->
+    <!-- <script src="./js/lazysizes.min.js"></script> -->
+    <!-- <script src="./js/jquery.min.js?"></script> -->
+  </head>
+  <body>
+    <header class="header" id="home">
+      <img src="/svg/bx-menu.svg" alt="" class="hamburger" id="hamburgerMenu"/>
+      <nav class="menu-navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#portfolio">Cat's portfolio</a>
+        <a href="#contact">Contacts</a>
+      </nav>
+      <div class="container head">
+        <h1 class="head__title">Wonderful World of Cats</h1>
+        <p class="head__copy">
+          Cats convert your life in a more fulfilled one.
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="container" id="services">
+        <h2 class="subtitle">The Many Benefits of Having a Cat</h2>
+        <section class="container-services">
+          <img src="/img/infographic2.avif" alt="" />
+          <div class="checklist-services">
+            <div class="service">
+              <h3 class="n-service">
+                <span class="number">1</span>Stress Reduction
+              </h3>
+
+              <p>
+                Studies have shown that petting a cat can release endorphins in
+                the brain, reducing stress and promoting a sense of well-being.
+                The soothing sound of a cat's purr can be incredibly calming,
+                helping to lower blood pressure and improve overall heart
+                health.
+              </p>
+            </div>
+
+            <div class="service">
+              <h3 class="n-service">
+                <span class="number">2</span>
+                Companionship Without Overwhelming Demands
+              </h3>
+
+              <p>
+                Cats are known for their independent spirits. Unlike some pets
+                that require constant attention, cats are perfectly content to
+                entertain themselves when you're busy, but will happily snuggle
+                up for a cozy cuddle when you’re ready. This balance makes them
+                perfect for people with busy lifestyles.
+              </p>
+            </div>
+
+            <div class="service">
+              <h3 class="n-service">
+                <span class="number">3</span>Playful and Entertaining
+              </h3>
+              <p>
+                Cats are naturally curious and playful. They love to explore
+                their surroundings, chase after toys, and engage in amusing
+                antics. Watching a cat play can bring endless entertainment and
+                laughter to a household, making every day a little brighter.
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="gallery" id="gallery">
+        <h2 class="subtitle">Gallery</h2>
+        <div class="container-gallery">
+          <img
+            src="/img/alex-nicolopoulos-hxn2HjZHyQE-unsplash.avif"
+            alt=""
+            class="img-gallery"
+            loading="lazy"
+          />
+          <img
+            src="/img/alvan-nee-ZCHj_2lJP00-unsplash.avif"
+            alt=""
+            class="img-gallery"
+            loading="lazy"
+          />
+          <img
+            src="/img/anton-ponomarenko-j7uVTlpwI0o-unsplash.avif"
+            alt=""
+            class="img-gallery"
+            loading="lazy"
+          />
+          <img
+            src="img/daria-shatova-46TvM-BVrRI-unsplash.avif"
+            alt=""
+            class="img-gallery"
+            loading="lazy"
+          />
+          <img
+            src="/img/eduardo-mallmann-3LPGWASiSbM-unsplash.avif"
+            alt=""
+            class="img-gallery"
+            loading="lazy"
+          />
+          <img
+            src="/img/hannah-troupe-0FQneB1VjaM-unsplash.avif"
+            alt=""
+            class="img-gallery"
+            loading="lazy"
+          />
+          <img
+            src="/img/lloyd-henneman-mBRfYA0dYYE-unsplash.avif"
+            alt=""
+            class="img-gallery"
+            loading="lazy"
+          />
+        </div>
+      </section>
+      <!-- LIGHTBOX GALLERY -->
+      <section class="image-light">
+        <img src="/svg/bx-x.svg" alt="" class="close" />
+        <img
+          src="/img/lloyd-henneman-mBRfYA0dYYE-unsplash.avif"
+          alt=""
+          class="load-image"
+        />
+      </section>
+
+      <section class="container" id="portfolio">
+        <h2 class="subtitle">Cats are experts in :</h2>
+        <section class="experts">
+          <div class="cont-expert">
+            <img
+              class="cont-expert-image"
+              src="/img/infographic1.avif"
+              alt=""
+            />
+            <h3 class="n-experts">Finding hidden treats</h3>
+          </div>
+          <div class="cont-expert">
+            <img
+              class="cont-expert-image"
+              src="/img/infographic4.avif"
+              alt=""
+            />
+            <h3 class="n-experts">Understanding their environment</h3>
+          </div>
+          <div class="cont-expert">
+            <img class="cont-expert-image" src="img/infographic3.avif" alt="" />
+            <h3 class="n-experts">Aesthetic appeal</h3>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer id="contact">
+      <section class="container footer-content">
+        <section class="contact-us">
+          <h2 class="brand">TK development</h2>
+          <p>We're experts with cats.</p>
+        </section>
+        <section class="social-media">
+          <a href="./" class="social-media-icon"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="./" class="social-media-icon"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="./" class="social-media-icon"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="./" class="social-media-icon"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="./" class="social-media-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </section>
+      </section>
+      <div class="line"></div>
+      <section class="copyright">copyright @2024</section>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+    <!-- <script>
+      const d = new Date();
+      let year = "&copy | " + d.getFullYear();
+      document.getElementById("date").innerHTML = year;
+    </script> -->
+
+    <!-- <script src="./js/floating-wpp.min.js" defer></script> -->
+
+    <!-- <script src="./js/menu.js?" async defer></script> -->
+    <!-- <script src="./js/topFunction.js" async defer></script> -->
+    <!-- <script src="./js/whatsapp.js" async defer></script> -->
+
+    <!-- <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+    ></script> -->
+  </body>
+</html>
